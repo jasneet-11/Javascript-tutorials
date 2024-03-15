@@ -24,7 +24,8 @@ const anotherId = Symbol('1234')
 /*
 Symbol(description?: string | number | undefined): symbol
 Description of the new Symbol object.
-Returns a new unique Symbol value
+Returns a new unique Symbol value 
+userid and another id both will give different outputs
 */
 
 console.log(userId==anotherId); // even we enter same values in the two variables output is false.
@@ -36,7 +37,7 @@ const heroes = ["Shaktiman", "Gohan", "Vegeta", "Broly"] // Array
     name:"Jasneet",
     age:21,
 }
-
+//variable way to declare and store any functon
 const myFunction = function(){
         console.log("Hello World");
 }
@@ -45,8 +46,10 @@ console.log(myFunction);
 //To determine data type we can use typeof function...
 
 console.log(typeof bigNumber);
-console.log(typeof null);
-console.log(typeof heroes);
-console.log(typeof myFunction)
+console.log(typeof null); //object aayega iska type 
+console.log(typeof heroes);// in documentation called as function object 
+console.log(typeof myFunction)// function but is called as object function 
 console.log( typeof myObj);
 console.log(typeof anotherId); //symbol 
+//To read documentation.. 
+// https://262.ecma-international.org/5.1/#sec-11.4.3
