@@ -1,13 +1,15 @@
 /*
-console.log(5>1); //returns answer in the form of true/false
+console.log(5>1); //returns answer in the form of true/false (boolean values)....
 console.log(5>=1);
 console.log(5<1);
 console.log(5==1);
 console.log(5!=1);
 */
+//comparing different data types
 console.log("5">1);
 console.log("05">1);
 //both give true output bcoz in both scenarios two is greater than one,While comparing two values always ensure that their data type remains same.
+//Typescript doesn't allow comparing two different data types.
 console.log(null >  0); //false
 console.log(null == 0); //false
 console.log(null >= 0); //true why but? Here the problem of value conversion occurs 
